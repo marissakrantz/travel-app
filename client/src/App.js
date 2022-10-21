@@ -8,12 +8,12 @@ import {
 import { setContext } from '@apollo/client/link/context';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-import Header from './componets/Header';
-import Footer from './componets/Foooter';
-import Home from './pages/Home';
-import Login from './pages/Login';
-import Signup from './pages/SignUp'
-import SingleTrip from './pages/SingleTrip'
+import Header from '../src/components/Header';
+import Footer from '../src/components/Footer';
+import Home from '../src/pages/Home';
+import Login from '../src/pages/Login';
+import Signup from '../src/pages/SignUp'
+import SingleTrip from '../src/pages/SingleTrip'
 
 import { ChakraProvider } from "@chakra-ui/react"
 

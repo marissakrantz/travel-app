@@ -1,0 +1,45 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.headerFont {
+    font-size: 20px;
+    font-family: 'Kaushan Script', cursive;
+
+}
+
+.loginPage {
+    background-color: skyblue;
+    height: 100vh !important;
+    padding-right: 10px !important;
+}
+
+.loginForm {
+    margin-left: auto;
+    width: 100%;
+}
+
+.worldMap {
+    object-fit: cover;
+    background-size: auto !important;
+    height: 100vh;
+
+}
+
+.logOutBtn {
+    background-color: skyblue !important;
+    color: white;
+    padding: .5rem !important;
+    margin: .5rem !important;
+}
+
+.logOutCon {
+    display: flex !important;
+    justify-content: space-evenly !important;
+}
+
+.login-header {
+    font-size: x-large;
+    text-align: center;
+}
