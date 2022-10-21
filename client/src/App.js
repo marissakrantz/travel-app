@@ -6,7 +6,7 @@ import {
   createHttpLink,
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
-import { BrowserRouter as Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Header from '../src/components/Header';
 import Footer from '../src/components/Footer';
@@ -41,26 +41,20 @@ const client = new ApolloClient({
 
 function App(Component) {
   return (
+    <BrowserRouter>
     <ApolloProvider client={client}>
       <ChakraProvider>
+        <Header />
         <Routes>
-          <Header />
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/login">
-            <Login />
-          </Route>
-          <Route exact path="/signup">
-            <Signup />
-          </Route>
-          <Route exact path="/trip/:tripId">
-            <SingleTrip />
-          </Route>
-          <Footer />
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/login" element={<Login />} />
+          <Route exact path="/signup" element={<Signup />} />
+          <Route exact path="/trip/:tripId" element={<SingleTrip />} />
         </Routes>
+        <Footer />
       </ChakraProvider>
     </ApolloProvider>
+    </BrowserRouter>
   );
 }
 

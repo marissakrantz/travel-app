@@ -443,12 +443,12 @@ button {
 }
 
 a {
-  color: rgb(244,170,170);
+  color: #f4aacd;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(216,85,85);
+  color: #df4090;
   text-decoration: underline;
 }
 
@@ -926,7 +926,7 @@ a:hover {
 }
 
 .text-info {
-  color: #1bbc9b !important;
+  color: #6cbae1 !important;
 }
 
 .text-danger {
@@ -938,7 +938,7 @@ a:hover {
 }
 
 .text-light {
-  color: #d9e9e8 !important;
+  color: #8cc8ec !important;
 }
 
 .text-dark {
@@ -959,11 +959,11 @@ a:hover {
 
 /* BACKGROUND UTILS */
 .bg-primary {
-  background-color: rgb(108,186,186) !important;
+  background-color: #f0f1c5 !important;
 }
 
 .bg-info {
-  background-color: #1bbc9b !important;
+  background-color: #e6e394 !important;
 }
 
 .bg-danger {
@@ -971,11 +971,11 @@ a:hover {
 }
 
 .bg-light {
-  background-color: rgb(140,200,200) !important;
+  background-color: #f0f1c5 !important;
 }
 
 .bg-dark {
-  background-color: rgb(108,186,186) !important;
+  background-color: #e6e394 !important;
 }
 
 .bg-white {
@@ -1022,12 +1022,12 @@ a:hover {
   border: 1px solid transparent;
   outline: none;
   color: #1a1a1a;
-  background-color: rgb(140,200,200);
+  background-color: #8cc8ec;
   transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 }
 
 .btn:hover {
-  background-color: rgb(108,186,186);
+  background-color: #8cc8ec;
 }
 
 .btn.btn-squared {
@@ -1051,12 +1051,12 @@ a:hover {
 }
 
 .btn.btn-primary {
-  background-color: rgb(140,200,200);
+  background-color: #f4aacd;
   color: white;
 }
 
 .btn.btn-primary:hover {
-  background-color: rgb(108,186,186);
+  background-color: #df4090;
 }
 
 .btn.btn-danger {
@@ -1069,21 +1069,21 @@ a:hover {
 }
 
 .btn.btn-info {
-  background-color: #1bbc9b;
+  background-color: #df4090;
   color: #ffffff;
 }
 
 .btn.btn-info:hover {
-  background-color: #31e1bd;
+  background-color: #ee8294;
 }
 
 .btn.btn-light {
-  background-color: #d9e9e8;
+  background-color: #df4090;
   color: #1a1a1a;
 }
 
 .btn.btn-light:hover {
-  background-color: #84b8b4;
+  background-color: #ee8294;
 }
 
 .btn.btn-dark {
@@ -1131,7 +1131,7 @@ a:hover {
 
 .card .card-header {
   padding: 0.375rem !important;
-  background-color: rgb(140,200,200);
+  background-color: #e6e394;
   color: white;
 }
 
