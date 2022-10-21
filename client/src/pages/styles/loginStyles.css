@@ -10,7 +10,7 @@
 }
 
 .loginPage {
-    background-color: skyblue;
+    background-color: rgb(140,200,200);
     height: 100vh !important;
     padding-right: 10px !important;
 }
@@ -28,7 +28,7 @@
 }
 
 .logOutBtn {
-    background-color: skyblue !important;
+    background-color: rgb(140,200,200)!important;
     color: white;
     padding: .5rem !important;
     margin: .5rem !important;
